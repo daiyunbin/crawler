@@ -2,8 +2,6 @@
 """
 Created on Wed Sep 12 21:33:59 2018
 
-@author: zhouyujiang
-
 @edited by: fangyucheng
 """
 

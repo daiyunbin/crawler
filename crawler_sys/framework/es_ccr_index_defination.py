@@ -7,7 +7,7 @@ Created on Thu Jun 14 17:09:09 2018
 from elasticsearch import Elasticsearch
 
 es_framework = Elasticsearch(hosts='192.168.17.11', port=80,
-                             http_auth=('crawler', 'XBcasfo8dgfs'))
+                             http_auth=('crawler', '**********'))
 
 index_target_releaser = 'target_releasers'
 doc_type_target_releaser = 'doc'

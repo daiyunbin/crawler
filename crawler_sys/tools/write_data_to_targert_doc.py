@@ -15,7 +15,7 @@ from write_data_into_es.func_get_releaser_id import get_releaser_id
 hosts = '192.168.17.11'
 port = 80
 user = 'zhouyujiang'
-passwd = '8tM9JDN2LVxM'
+passwd = '******'
 http_auth = (user, passwd)
 rds = redis.StrictRedis(host='192.168.17.60', port=6379, db=2, decode_responses=True)
 es = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)

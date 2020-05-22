@@ -11,7 +11,7 @@ from crawler.crawler_sys.utils.trans_format import lst_to_csv
 hosts = '192.168.17.11'
 port = 80
 user_id = 'fangyucheng'
-password = 'VK0FkWf1fV8f'
+password = '************'
 http_auth = (user_id, password)
 es_connection = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)
 

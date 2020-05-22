@@ -15,7 +15,7 @@ from elasticsearch.helpers import scan
 hosts = '192.168.17.11'
 port = 80
 user = 'zhouyujiang'
-passwd = '8tM9JDN2LVxM'
+passwd = '**********'
 http_auth = (user, passwd)
 
 es = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)

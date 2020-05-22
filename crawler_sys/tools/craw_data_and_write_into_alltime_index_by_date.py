@@ -23,7 +23,7 @@ from crawler.crawler_sys.site_crawler_test import crawler_tencent_news
 hosts = '192.168.17.11'
 port = 80
 user = 'zhouyujiang'
-passwd = '8tM9JDN2LVxM'
+passwd = '********'
 http_auth = (user, passwd)
 from func_get_releaser_id import *
 es = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)

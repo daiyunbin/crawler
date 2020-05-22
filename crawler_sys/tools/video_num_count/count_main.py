@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
-# @Time : 2019/6/11 15:26 
-# @Author : litao
+# author: Scandium
+# work_location: CSM Peking
+# project : crawler
+# time: 2019/11/25 10:55
 import datetime
 
 from crawler.haokan_count import *

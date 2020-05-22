@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
-# @Time : 2019/5/30 11:01 
-# @Author : litao
+# author: Scandium
+# work_location: CSM Peking
+# project : crawler
+# time: 2019/11/22 11:54
 import re, requests
 
 

@@ -1,12 +1,9 @@
 # -*- coding:utf-8 -*-
-# @Time : 2019/7/29 15:40
-# @Author : litao
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 27 14:05:18 2018
+# author: Scandium
+# work_location: CSM Peking
+# project : crawler
+# time: 2019/11/23 14:26
 
-@author: fangyucheng
-"""
 
 import hashlib
 import uuid

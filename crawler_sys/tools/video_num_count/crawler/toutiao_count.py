@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
-# @Time : 2019/6/10 19:07
-# @Author : litao
+# author: Scandium
+# work_location: CSM Peking
+# project : crawler
+# time: 2019/11/22 11:25
 import time, datetime, random
 import pandas as pd
 import os

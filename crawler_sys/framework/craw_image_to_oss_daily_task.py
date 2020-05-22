@@ -1,11 +1,13 @@
 # -*- coding:utf-8 -*-
-# @Time : 2019/11/1 15:55
-
+# author: Scandium
+# work_location: CSM Peking
+# project : crawler
+# Time : 2019/11/1 15:55
 import requests
 import datetime
 from elasticsearch.helpers import scan
 from elasticsearch import Elasticsearch
-import redis,time
+import redis, time
 import logging
 import oss2
 from concurrent.futures import ThreadPoolExecutor,ProcessPoolExecutor
@@ -19,8 +21,8 @@ except:
 
 hosts = '192.168.17.11'
 port = 80
-user = 'litao'
-passwd = 'lQSmSEnGZZxl'
+user = 'liukang'
+passwd = '*******'
 http_auth = (user, passwd)
 es = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)
 pool = redis.ConnectionPool(host='192.168.17.60', port=6379, db=8)

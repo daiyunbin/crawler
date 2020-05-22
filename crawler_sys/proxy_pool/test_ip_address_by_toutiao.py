@@ -19,7 +19,7 @@ from crawler_sys.proxy_pool import connect_with_database
 hosts = '192.168.17.11'
 port = 80
 user_id = 'fangyucheng'
-password = 'VK0FkWf1fV8f'
+password = '*********'
 http_auth = (user_id, password)
 lose_re_url = []
 es = Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)

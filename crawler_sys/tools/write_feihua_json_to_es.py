@@ -6,7 +6,7 @@ from write_data_into_es.func_cal_doc_id import *
 hosts = '192.168.17.11'
 port = 80
 user = 'zhouyujiang'
-passwd = '8tM9JDN2LVxM'
+passwd = '**********'
 http_auth = (user, passwd)
 es = elasticsearch.Elasticsearch(hosts=hosts, port=port, http_auth=http_auth)
 from concurrent.futures import ThreadPoolExecutor,ProcessPoolExecutor

@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 # @Time : 2019/9/12 10:19 
-# @Author : litao
 
 """
     私密代理使用示例
@@ -14,8 +13,8 @@ import kdl,requests
 rds = redis.StrictRedis(host='192.168.17.60', port=6379, db=7)
 def get_proxy_from_redis():
     one_proxy = str(rds.randomkey(),encoding="utf-8")
-    username = "hanye"
-    password = "i9mmu0a3"
+    username = "****"
+    password = "******"
 
     proxies = {
             "http": "http://%(user)s:%(pwd)s@%(ip)s/" % {'user': username, 'pwd': password, 'ip': one_proxy},

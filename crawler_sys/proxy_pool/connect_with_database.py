@@ -2,7 +2,6 @@
 """
 Created on Tue Sep 18 09:32:41 2018
 
-@author: fangyucheng
 """
 
 import datetime
@@ -12,8 +11,8 @@ from crawler_sys.proxy_pool import make_up_sql
 
 def write_dic_into_database(data_dic,
                             host='192.168.18.11',
-                            user='root',
-                            passwd='csm@1234',
+                            user='********',
+                            passwd='******',
                             database_name='proxy_pool',
                             table_name='proxy_pool'):
     """
@@ -49,7 +48,7 @@ def write_lst_into_database(data_lst, table_name, database_name='proxy_pool'):
 
 def extract_data_to_test(host='192.168.18.11',
                          user='root',
-                         passwd='csm@1234',
+                         passwd='*****',
                          table_name='proxy_pool', 
                          database_name='proxy_pool'):
     """
